@@ -149,4 +149,5 @@ if DEBUG:
         'debug_toolbar',
     )
 
-LOGIN_REDIRECT_URL = "/"
+LOGIN_REDIRECT_URL = "home"
+LOGOUT_REDIRECT_URL = "home"
