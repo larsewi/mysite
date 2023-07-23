@@ -148,3 +148,5 @@ if DEBUG:
     INSTALLED_APPS += (
         'debug_toolbar',
     )
+
+LOGIN_REDIRECT_URL = "/"
